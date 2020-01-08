@@ -1,0 +1,83 @@
+
+/** =======================================Sarasij ============================================ **/ 
+.pf-list-banner{width: 100%; height:300px; overflow: hidden; background-repeat: no-repeat;background-size: cover}
+.pf-list-mini-header{ width: 100%; height:40px;background: #fff;box-shadow: 1px 1px rgba(0,0,0,0.2); }
+.pf-list-mini-header ul{ list-style: none; padding-top: 10px; margin-left:90px;  }
+.pf-list-mini-header ul li{ float: left; margin-right: 15px;font-size: 13px; font-weight: 400; color:#A2A2A2;
+border-right: 1px solid #A2A2A2; padding-right: 15px;}
+.pf-list-mini-header ul li a{color:#A2A2A2;}
+.pf-list-mini-header ul li:last-child{ border: none; }
+.pf-list-mini-header ul li.active-brown a{color:#A08D7E;}
+.pf-list-content{width: 100%; height: auto;}
+/*.pf-list-categories{ margin: 40px 0 0 134px }
+.pf-list-categories h3{ text-transform: uppercase;color: #222222; font-size: 15px; font-weight: 600;
+border-bottom: 1px solid #c6c6c6; padding-bottom: 19px; }
+.pf-list-categories ul{ list-style: none; padding: 0 0 0 5px; margin-bottom: 40px; }
+.pf-list-categories ul li{ font-size: 12px; padding:5px 0 8px 0; border-bottom: 1px solid #c6c6c6; }
+.pf-list-categories ul li:first-child{padding-top: 10px;} 
+.pf-list-categories ul li a{color: #878787;}*/
+.pf-list-flower{ margin-left: 20px; }
+.pf-list-flower-head{ margin-top: 40px }
+.pf-list-flower-head h1{ font-size: 18px; text-transform: uppercase; font-weight: 800; border-bottom: 1px solid #c6c6c6;
+padding-bottom: 15px; }
+.pf-list-flower-card{width: 100%; height:250px; overflow: hidden; background-repeat: no-repeat;background-size: cover;
+position: relative; margin-bottom:20px; box-shadow: 2px 7px 7px  rgba(0,0,0,.2)}
+.pf-list-flower-desc{position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,0.2); display: none;
+transition: 1s all}
+.pf-list-flower-card:hover .pf-list-flower-desc{ display:block; }
+.pf-list-flower-cart{}
+.pf-list-flower-cart a{ background:#fff; padding:5px 9px 5px 7px; position: absolute; top: 104px; left: 105px; }
+.pf-list-flower-cart a img{ height:20px; }
+.pf-list-flower-view{}
+.pf-list-flower-view a{background: #fff; position: absolute; top: 158px; left:73px; padding:5px 8px; font-size: 11px;
+	color:red; font-weight: 300; text-transform: uppercase; text-decoration: none;}
+.pf-list-flower-view a span img{height:14px; margin-right:5px;}
+.pf-list-meta-desc{ margin-bottom: 40px; }
+.pf-list-flower-meta-category{}
+.pf-list-flower-meta-category h3{ text-align: center; font-size:10px; font-weight:bold; color: #A28D7C;
+	text-transform: uppercase}
+.pf-list-flower-meta-name{ }
+.pf-list-flower-meta-name h3{ text-align: center; font-weight: 300; font-size:15px; line-height: 20px;color:#565656; 
+	text-transform: uppercase;  }
+.pf-list-flower-meta-name p{ border-top: 1px solid #878787; margin-top: 15px; width:32px; text-align: center;
+ 	margin-left:104px;  }
+.pf-list-flower-meta-price{}
+.pf-list-flower-meta-price h3{text-align: center; font-size: 12px; color: #878787; font-weight: bold; line-height: 10px;}
+.pf-list-flower-meta-price h3 span{ text-decoration: underline; margin-left:5px; color:#565656; }
+footer{width:100%; background:#DB0706; color:#fff;}
+.footer{ padding-top: 60px; padding-bottom:40px; margin-left: 137px }
+.pf-foot-logo{}
+.pf-foot-logo img{height: 90px;}
+.pf-foot-desc{margin-top: 10px;}
+.pf-foot-desc p{ font-size: 13px; line-height: 16px;}
+.pf-foot-social{}
+.pf-foot-social a{}
+.pf-foot-social ul{ list-style: none;  padding: 0;}
+.pf-foot-social ul li{float: left; padding: 5px; border-radius:50%; background: #000; margin-left: 5px; }
+.pf-foot-social ul li img{ height: 20px; }
+.pf-foot-social ul li:hover{ background: #1d1d1d; }
+.pf-foot-subscribe{  }
+.pf-foot-subscribe [type=text]{ width:63%; border:1px solid #fff; background:transparent; height: 25px;
+	margin-right: 0; color:#fff; font-size: 13px;padding:;}
+.pf-foot-subscribe [type=submit]{font-size:9px; height: 27px; margin-left: 0; background: #000; color:#fff;
+	border:none; padding: 4px 8px 0 8px;}
+.pf-foot-products{margin-left: 20px;}
+.pf-foot-products h3{font-size: 16px; margin-bottom: 60px;}
+.pf-foot-products a{ color: #fff; }
+.pf-foot-products ul{ list-style: none; padding-left: 0; }
+.pf-foot-products ul li{ font-size: 13px; margin-bottom:5px; }
+.pf-black-footer{ width: 100%; height:40px; background:#000; padding-left: 260px; overflow: hidden;}
+.pf-foot-copyright{ padding-top:15px; }
+.pf-foot-copyright p{ font-size:10px; }
+.right-head-mobile{display: none;}
+.pf-list-categories{ margin: 40px 0 0 134px }
+.pf-list-categories h3{ text-transform: uppercase;color: #222222; font-size: 15px; font-weight: 600;
+border-bottom: 1px solid #c6c6c6; padding-bottom: 19px; }
+.pf-list-categories ul{ list-style: none; padding: 0 0 0 5px; margin-bottom: 40px; }
+.pf-list-categories ul li{ font-size: 12px; padding:5px 0 8px 0;}
+.pf-list-categories ul li:first-child{padding-top: 10px;}
+.pf-list-categories ul li h6 a{font-size:13px;}
+.pf-list-categories .col-ar a{display:list-item;text-decoration: none;margin-left: 20px;border-bottom: 1px solid #c6c6c6;font-size:13px;padding:5px;}
+.pf-list-categories .col-ar a:last-child{border-bottom:none}
+.mobile-menu-screen{display: none}
+/** =======================================Sarasij ============================================ **/ 

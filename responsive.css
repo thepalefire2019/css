@@ -1,0 +1,69 @@
+
+
+
+@media(max-width:576px){
+/** =======================================Header ============================================ **/ 
+	header{border-bottom: none;}
+	.left-head{width:60%;}
+	.right-head{width: 40%}
+	.right-head-up{ display:none; }
+	.right-head-down{ display: none; }
+	.right-head-mobile{display: block; width:50px; height:80px; position: absolute; right:30px; top:32px;}
+	.right-head-mobile span{display: block; width:38px; height:4px; background:red; margin-bottom:6px;}
+/** =======================================Header ============================================ **/ 
+
+/** =======================================Menu Screen ============================================ **/ 
+.mobile-menu-screen{position: absolute;left: 0; width: 100%; height: 100vh; background: #E8E8E8;;z-index: 1; display: none;}
+.menu-screen-login{width: 100%}
+.menu-screen-login a{color: #000}
+.menu-screen-login a h3{text-align: center;margin-top: 20px;border: 1px solid red;font-size: 31px;font-weight: 700;
+	padding: 5px 0px;}
+.menu-screen-login h3{text-align: center;margin-top: 20px;font-size: 31px;font-weight: 700;padding: 5px 0px;}
+.menu-screen-left-list{}
+.menu-screen-left-list ul{list-style: none;}
+.menu-screen-left-list ul a{color: #000}
+.menu-screen-left-list ul a li{font-size: 19px; margin-bottom: 10px;}
+.menu-screen-right-list{}
+.menu-screen-right-list ul{ list-style: none; margin-right: 30px;}
+.menu-screen-right-list ul a{color: #000}
+.menu-screen-right-list ul a li{font-size: 19px; margin-bottom: 10px; text-align: right}
+/** =======================================Menu Screen ============================================ **/ 
+
+/** =======================================Home Page ============================================ **/ 
+	.pf-home-slide .pf-carousel-slide .pf-carousel-item .pf-carousel-content{padding:118px 0 0 0;}
+	.pf-home-slide .pf-carousel-slide .pf-carousel-item .pf-carousel-content h2{font-size:23px; margin-bottom:50px;}
+	.pf-home-slide .pf-carousel-slide .pf-carousel-item .pf-carousel-content h4{ font-size: 19px; }
+	.pf-home-slide .pf-carousel-slide .pf-carousel-item .pf-carousel-content h2 span{font-size: 58px;}
+	.pf-home-slide .pf-carousel-content a{margin-left: -11px;font-size:13px; padding:12px 20px;}
+	.carousel-indicators li {width:17px;}
+	.carousel-control-next-icon, .carousel-control-prev-icon{ width:13px; height:13px; }
+	.pf-home-slide .carousel-control-content{padding:4px 4px 0 4px;}
+	.pf-latest-product .pf-latest-product-item p{margin-bottom:31px;}
+	.pf-latest-product .pf-latest-product-image{margin-top:42px;}
+	.pf-our-product .pf-our-product-list ul li{ font-size: 9px; }
+	.pf-our-product-title{font-size:20px; padding-bottom:7px;}
+	.pf-list-flower-meta-name p {margin-left:158px;}
+	.footer{margin-left:0px;}
+	.pf-foot-products {margin-top:20px;}
+	.pf-foot-products h3 {font-size: 28px;margin-bottom: 10px;}
+	.pf-black-footer{padding-left:26px;}
+	.pf-view-section .pf-view-section-content .pf-view-content-youtube{display:none;}
+	.pf-view-section .pf-view-section-content .pf-view-content-background{width: 100%;}
+	.pf-home-slide .pf-carousel-slide .pf-carousel-item{ height: calc(100vh - 125px);}
+	.pf-home-slide .pf-carousel-slide .pf-carousel-item .pf-carousel-content { height: calc(100vh - 125px); }
+	.pf-list-flower-desc{display:block;}
+	.pf-list-flower-cart a{left:137px; top:98px;}
+	.pf-list-flower-view a{top:156px; left:101px;}
+	.pf-list-banner{ height:300px;  }
+	.pf-list-mini-header{ display:none; }
+	
+/** =======================================Home page ============================================ **/ 
+
+
+/** =======================================All Products ============================================ **/ 
+	.pf-list-categories{margin-left: 50%; transform: translateX(-50%);}
+	.pf-list-flower-meta-name h3{line-height: 23px;}
+	.pf-list-flower-meta-name p{margin-left: 50%; transform: translateX(-50%);width: 100px;}
+/** =======================================All Products ============================================ **/ 
+
+}
