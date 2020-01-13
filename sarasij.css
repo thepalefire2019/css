@@ -26,11 +26,12 @@ position: relative; margin-bottom:20px; box-shadow: 2px 7px 7px  rgba(0,0,0,.2)}
 transition: 1s all}
 .pf-list-flower-card:hover .pf-list-flower-desc{ display:block; }
 .pf-list-flower-cart{}
-.pf-list-flower-cart a{ background:#fff; padding:5px 9px 5px 7px; position: absolute; top: 104px; left: 105px; }
+.pf-list-flower-cart a{ background:#fff; padding:5px 9px 5px 7px; position: absolute; top: 104px; left: 50%; 
+	transform: translateX(-50%); }
 .pf-list-flower-cart a img{ height:20px; }
 .pf-list-flower-view{}
-.pf-list-flower-view a{background: #fff; position: absolute; top: 158px; left:73px; padding:5px 8px; font-size: 11px;
-	color:red; font-weight: 300; text-transform: uppercase; text-decoration: none;}
+.pf-list-flower-view a{background: #fff; position: absolute; top: 158px; left:50%; padding:5px 8px; font-size: 11px;
+	color:red; font-weight: 300; text-transform: uppercase; text-decoration: none; transform: translateX(-50%);}
 .pf-list-flower-view a span img{height:14px; margin-right:5px;}
 .pf-list-meta-desc{ margin-bottom: 40px; }
 .pf-list-flower-meta-category{}
@@ -39,8 +40,8 @@ transition: 1s all}
 .pf-list-flower-meta-name{ }
 .pf-list-flower-meta-name h3{ text-align: center; font-weight: 300; font-size:15px; line-height: 20px;color:#565656; 
 	text-transform: uppercase;  }
-.pf-list-flower-meta-name p{ border-top: 1px solid #878787; margin-top: 15px; width:32px; text-align: center;
- 	margin-left:104px;  }
+.pf-list-flower-meta-name p{ border-top: 1px solid #878787; margin-top: 15px; width:32px; 
+ 	margin-left:50%; transform: translateX(-50%);  }
 .pf-list-flower-meta-price{}
 .pf-list-flower-meta-price h3{text-align: center; font-size: 12px; color: #878787; font-weight: bold; line-height: 10px;}
 .pf-list-flower-meta-price h3 span{ text-decoration: underline; margin-left:5px; color:#565656; }

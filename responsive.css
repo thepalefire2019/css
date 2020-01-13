@@ -52,10 +52,11 @@
 	.pf-home-slide .pf-carousel-slide .pf-carousel-item{ height: calc(100vh - 125px);}
 	.pf-home-slide .pf-carousel-slide .pf-carousel-item .pf-carousel-content { height: calc(100vh - 125px); }
 	.pf-list-flower-desc{display:block;}
-	.pf-list-flower-cart a{left:137px; top:98px;}
-	.pf-list-flower-view a{top:156px; left:101px;}
+	.pf-list-flower-cart a{left:50%; top:98px; transform: translateX(-50%)}
+	.pf-list-flower-view a{top:156px; left:50%; transform: translateX(-50%)}
 	.pf-list-banner{ height:300px;  }
 	.pf-list-mini-header{ display:none; }
+	.pf-list-flower{margin-left: 0;}
 	
 /** =======================================Home page ============================================ **/ 
 
